@@ -1,14 +1,16 @@
 package com.example.ccut.hellowword;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by 李炯飞 on 2016/11/27.
+ */
 
+public class FirstProject extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        //測試個
+
     }
 }
